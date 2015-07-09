@@ -1,0 +1,57 @@
+.form_lienhe
+{
+	float:left;
+	margin-top:6px;
+	}
+label{
+	margin-top:1px;
+	width:100px;
+	display: block;
+	float:left;
+	color:#FAD378;
+	text-align:left;
+}
+.rowElem_lh{
+	float:left;
+	height:25px;
+}
+input.name
+{
+		border-bottom:1px dotted #FAB95B;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		background:transparent;
+		width:302px;
+		text-indent:15px;
+		color:#FAD378;
+		font-size:11px;
+}
+textarea.textarea
+{
+		border-bottom:1px dotted #FAB95B;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		background:transparent;
+		width:302px;
+		font-size:11px;
+		text-indent:15px;
+		color:#FAD378;
+		height:71px;
+}
+input.submit
+{
+		float:left;
+		margin-right:20px;
+}
+input.reset
+{
+
+	background:url(../images/reset.png) no-repeat;
+	width:69px;
+	height:24px;
+	border:none;
+	float:left;
+	cursor:pointer;
+		}

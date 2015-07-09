@@ -1,0 +1,102 @@
+
+.menu{
+	position:relative;
+	z-index:99999999;
+	float:left;
+	width:970px;
+	margin-top:18px;
+	margin-left:2em;
+}
+.menu ul{
+	z-index:100;
+	margin:0px;
+	padding:0px;
+	
+}
+.menu ul li{
+	
+	list-style:none;
+	float:left;
+	margin-left:18px;
+	margin-right:18px;
+}
+
+.menu ul li a{
+	color:#f4e11f;
+	font-size:12px;
+	float:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+}
+.menu ul li a:hover,
+.menu ul li a.active
+{
+	color:#fff;
+}
+
+.visited{
+	color:#fff!important;
+}
+.selected{
+	color:#fff!important;
+}
+
+.menu ul li ul{
+
+	margin-top:16px;
+	position:absolute;
+	text-align:justify;
+	display: none;
+	visibility: hidden;
+	width:auto !important;
+	padding-left:5px;
+	background:url(/images/bg_submenu.png) repeat left center;
+	font-size:11px  !important;
+	
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+
+	
+}
+.menu ul li ul li{
+	display: list-item;
+	clear:both;
+	float:none;
+	line-height:30px;
+	margin:0px;
+	padding-left:2px;
+	border-right:none;
+}
+
+.menu ul li ul li a{
+
+	text-transform:none;
+	border:none;
+	font-size:11px;	
+	width:auto;
+	margin-left:3px;
+}
+.menu ul li ul li a:hover
+{
+	color:#fff;
+}
+.downarrowclass{
+	position: absolute;
+}
+.rightarrowclass{
+	position: absolute;
+}
+.ddshadow{ 
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	background: silver;
+}
+
+.toplevelshadow{ 
+	opacity: 0.8;
+}

@@ -1,0 +1,109 @@
+
+
+ .ttx_ten
+
+{
+
+	color:#ffcc66;
+
+	font-size:13px;
+
+	margin-top:10px;
+
+	text-align:left;
+	padding-left:16px;
+
+	text-transform:uppercase;
+
+	font-family:"Times New Roman", Times, serif;
+
+	font-weight:bold;
+
+	margin-bottom:10px;
+
+}
+
+ .ttx_chuthich
+
+{
+
+	text-align:justify;
+
+	font-size:12px;
+
+	line-height:19px;
+
+	color:#ffffcc;
+
+	padding-left:16px;
+
+}
+
+ .ttx_noidung
+
+{
+
+	color:#EED390;
+
+	font-size:12px;
+
+	line-height:19px;
+
+	text-align:justify;
+
+	padding-left:16px;
+
+}
+
+.ttx_chitet
+
+{
+
+	padding-left:16px;
+
+	text-align:left;
+
+	}
+
+.ttx_chitet a
+
+{
+
+	color:#d2ae55;
+
+	font-size:11px;
+
+	}	
+
+.ttx_chitet a:hover
+
+{
+
+	color:#fff;
+
+	}	
+
+ .ttx_new
+
+{
+
+	color:#FAD378;
+
+	font-size:16px;
+
+	margin-top:20px;
+
+	margin-bottom:7px;
+
+	border-bottom:1px dotted #FAD378;
+
+	padding-bottom:3px;
+
+	/*float:left;*/
+
+	width:379px;
+
+	text-align:left;	
+
+}
+

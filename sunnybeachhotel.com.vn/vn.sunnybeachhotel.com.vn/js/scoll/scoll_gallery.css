@@ -1,0 +1,17 @@
+
+
+#mcs4_container{float:left; width:390px; height:291px;  padding:0 ; }
+
+#mcs4_container .customScrollBox{position:relative; height:100%; overflow:hidden;}
+
+#mcs4_container .customScrollBox .container{position:relative; width:380px; top:0; float:left;}
+
+#mcs4_container .customScrollBox .content{clear:both; margin-right:8px;}
+
+
+
+#mcs4_container .dragger_container{position:relative; height:291px; float:left; margin:0px 0 0 8px;  cursor:pointer; background:#000; width:5px;  -moz-border-radius:18px; -khtml-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;}
+
+#mcs4_container .dragger{position:absolute; width:5px; height:30px; background:#FAD378; margin-left:0px; text-align:center; overflow:hidden; cursor:pointer;  -moz-border-radius:18px; -khtml-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;}
+
+#mcs4_container .dragger_pressed{position:absolute; width:5px; height:30px; background:#FAD378; margin-left:0px; overflow:hidden; cursor:s-resize;  -moz-border-radius:18px; -khtml-border-radius:18px; -webkit-border-radius:18px; border-radius:18px;}

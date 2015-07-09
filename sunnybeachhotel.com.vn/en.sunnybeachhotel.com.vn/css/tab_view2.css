@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.TabView div.Tabs{ 
+height: 30px; 
+overflow: hidden; 
+}
+div.TabView div.Tabs a {
+ float: left;
+ width:134px; 
+ display: block; 
+ text-align: left; 
+ height: 26px; 
+ padding-left:2.4em;
+ padding-top: 3px;
+ line-height:30px; 
+ vertical-align: middle; 
+ text-decoration: none; 
+ font-weight: bold; 
+ color: #FFCC66; 
+ }
+ 
+div.TabView div.Tabs a:hover, div.TabView div.Tabs a.Active { 
+color: #ffffff;
+font-weight:bold;
+height:30px;
+}
+
+div.TabView div.Pages {clear: both; border:0px; overflow: hidden; }
+div.TabView div.Pages div.Page {height: 100%;padding: 5px;overflow: hidden;}

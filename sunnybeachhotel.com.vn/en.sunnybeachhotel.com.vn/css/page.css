@@ -1,0 +1,23 @@
+/*page ajax*/
+#page_navigation
+{
+	text-align:center;
+	width:100%;
+	float:left;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+#page_navigation a{
+	padding:0 6px;
+	border:1px solid #754C24;
+	margin:2px;
+	color:#754C24;
+	text-decoration:none;
+	font-weight:bold;
+}
+#page_navigation a:hover{border:1px solid #B3CEE6;color:#0072BC;}
+.active_page{
+	
+	color:#0072BC !important;
+	border:1px solid #B3CEE6!important;
+}

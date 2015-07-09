@@ -1,0 +1,86 @@
+FileETag none
+
+RewriteEngine On
+
+RewriteRule ^home/										?act=home
+
+RewriteRule ^tin-tuc-xem/([0-9]*)   					?act=tin_tuc_xem&id=$1
+RewriteRule ^tin-tuc/([0-9]*)/([0-9]*)/					?act=tin_tuc&id=$1&page=$2
+RewriteRule ^tin-tuc/([0-9]*)							?act=tin_tuc&id=$1
+RewriteRule ^tin-tuc/									?act=tin_tuc
+
+RewriteRule ^khuyen-mai-xem/([0-9]*)   					?act=khuyen_mai_xem&id=$1
+RewriteRule ^khuyen-mai/([0-9]*)/([0-9]*)/				?act=khuyen_mai&id=$1&page=$2
+RewriteRule ^khuyen-mai/([0-9]*)						?act=khuyen_mai&id=$1
+RewriteRule ^khuyen-mai/								?act=khuyen_mai
+
+RewriteRule ^gioi-thieu/([0-9]*)/						?act=gioi_thieu&id=$1
+RewriteRule ^gioi-thieu/								?act=gioi_thieu
+
+RewriteRule ^he-thong-phong-xem/([0-9]*)   					?act=he_thong_phong_xem&id=$1
+RewriteRule ^he-thong-phong/([0-9]*)						?act=he_thong_phong&id=$1
+RewriteRule ^he-thong-phong/								?act=he_thong_phong
+
+RewriteRule ^thu-vien-hinh-xem/([0-9]*)							?act=thu_vien_hinh_xem&id=$1
+RewriteRule ^thu-vien-hinh/([0-9]*)/([0-9]*)/					?act=thu_vien_hinh&id=$1&page=$2
+RewriteRule ^thu-vien-hinh/([0-9]*)								?act=thu_vien_hinh&id=$1
+RewriteRule ^thu-vien-hinh/										?act=thu_vien_hinh
+
+RewriteRule ^lien-he/									?act=lien_he
+RewriteRule ^dich-vu/									?act=dich_vu
+RewriteRule ^nha-hang/									?act=nha_hang
+RewriteRule ^bar-cafe/									?act=bar_cafe
+RewriteRule ^thue-xe/									?act=thue_xe
+RewriteRule ^tour-bana/									?act=tour_bana
+RewriteRule ^tour-tonghop/								?act=tour_tonghop
+RewriteRule ^tour-sontra/								?act=tour_sontra
+RewriteRule ^dat-phong/									?act=dat_phong
+###Start Kloxo PHP config Area
+###Please Don't edit these comments or the content in between. kloxo uses this to recognize the lines it writes to the the file. If the above line is corrupted, it may fail to recognize them, leading to multiple lines.
+<Ifmodule mod_php4.c>
+php_value error_log /home/kssunny/__processed_stats/test.sunnybeachhotel.com.vn.phplog
+php_value upload_max_filesize 2M
+php_value max_execution_time  30
+php_value max_input_time  60
+php_value memory_limit  32M
+php_value post_max_size  8M
+php_flag register_globals  off
+php_flag display_errors  off
+php_flag file_uploads  on
+php_flag log_errors  off
+php_flag output_buffering  off
+php_flag register_argc_argv  on
+php_flag magic_quotes_gpc   off
+php_flag magic_quotes_runtime  off
+php_flag magic_quotes_sybase  off
+php_flag mysql.allow_persistent  off
+php_flag register_long_arrays  on
+php_flag allow_url_fopen  on
+php_flag cgi.force_redirect  on
+php_flag enable_dl  on
+</Ifmodule>
+<Ifmodule mod_php5.c>
+php_value error_log /home/kssunny/__processed_stats/test.sunnybeachhotel.com.vn.phplog
+php_value upload_max_filesize 2M
+php_value max_execution_time  30
+php_value max_input_time  60
+php_value memory_limit  32M
+php_value post_max_size  8M
+php_flag register_globals  off
+php_flag display_errors  off
+php_flag file_uploads  on
+php_flag log_errors  off
+php_flag output_buffering  off
+php_flag register_argc_argv  on
+php_flag magic_quotes_gpc   off
+php_flag magic_quotes_runtime  off
+php_flag magic_quotes_sybase  off
+php_flag mysql.allow_persistent  off
+php_flag register_long_arrays  on
+php_flag allow_url_fopen  on
+php_flag cgi.force_redirect  on
+php_flag enable_dl  on
+</Ifmodule>
+
+###End Kloxo PHP config Area
+
